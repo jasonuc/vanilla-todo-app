@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanillaJS To-do list</title>
+    <link href="./css/output.css" rel="stylesheet">
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body class="h-screen space-y-5 bg-light box-content">
+    <h1 class="text-3xl font-bold text-center">My <span class="font-mono font-light italic underline underline-offset-1">Todo</span> list</h1>
+    <ul id="todos" class="even:bg-dark border-4 border-solid border-primary shadow-dark w-3/4 mx-auto spacing-y-[15px] rounded-md p-5 box-border min-h-[80px] max-h-[50%] overflow-y-scroll">
+
+    </ul>
+
+    <form class=" bg-tertiary flex flex-col w-1/2 mx-auto p-5 rounded-lg">
+        <input type="text" name="todo" placeholder="Enter your To do here" class="placeholder:italic placeholder:font-mono h-[30px] bg-tertiary border-2 border-light rounded-sm p-2">
+        <input type="submit" value="Add Todo" class="font-mono bg-extralight rounded-sm mt-[15px] font-bold">
+    </form>
+
+    <p class="absolute bottom-0 left-1/2 text-center font-mono">2023</p>
+</body>
+</html>
